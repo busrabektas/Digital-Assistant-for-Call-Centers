@@ -54,9 +54,7 @@ logs/
 temp/
 tmp/
 
-# Konuşma kayıtları ve özel veriler
-conversations/*
-!conversations/.gitkeep
+# Sadece işlenmiş verileri hariç tut - conversations klasörü artık GitHub'a gönderilebilir
 processed_data/*
 !processed_data/.gitkeep
 
