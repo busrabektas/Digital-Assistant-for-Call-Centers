@@ -1,0 +1,11 @@
+streamlit
+mysql-connector-python
+transformers
+langchain-core
+langgraph
+langchain-openai  
+torch
+pydantic
+pandas
+openai
+langchain-community

@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# IDE spesifik dosyalar
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model dosyaları ve veri setleri (büyük dosyalar)
+*.model
+*.pkl
+*.h5
+*.onnx
+*.bin
+*.pb
+models/*.pt
+models/weights/
+dataset/raw/
+whisperx/weights/
+
+# Loglar ve geçici dosyalar
+logs/
+*.log
+temp/
+tmp/
+
+# Konuşma kayıtları ve özel veriler
+conversations/*
+!conversations/.gitkeep
+processed_data/*
+!processed_data/.gitkeep
+
+# OpenAI API key ve diğer gizli bilgiler
+**/config.json
+**/credentials.json
+**/secrets.json
+*api_key*
+
+# Streamlit cache
+.streamlit/
+
+# WhisperX model çıktıları
+*.srt
+*.vtt
+*.json
+whisperx/outputs/
+
+# Diğer
+.cache/
+.pytest_cache/
+coverage.xml
+.coverage
+htmlcov/ 
