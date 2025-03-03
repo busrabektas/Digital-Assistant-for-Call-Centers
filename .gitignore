@@ -67,12 +67,6 @@ processed_data/*
 # Streamlit cache
 .streamlit/
 
-# WhisperX model çıktıları
-*.srt
-*.vtt
-*.json
-whisperx/outputs/
-
 # Diğer
 .cache/
 .pytest_cache/
