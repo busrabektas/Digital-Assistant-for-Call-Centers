@@ -1,4 +1,4 @@
-# DIGITAL ASSISTANT FOR CALL CENTERS
+# 🤖 DIGITAL ASSISTANT FOR CALL CENTERS
 
 
 ## Overview
@@ -41,11 +41,47 @@ LangGraph creates a workflow that processes structured text data using GPT-4o.
 
 **Three AI-based tools analyze the conversations:** 
 
-- NPS Analysis: Categorizes customers into Promoter, Passive, and Detractor groups.Predicts and evaluates customer loyalty and satisfaction.​
+- 📊 **NPS Analysis**: Predicts and evaluates customer loyalty and satisfaction.
 
-- Sentiment Analysis: Identifies whether customer feedback is positive, neutral, or negative.
+    - **Model used** : joeddav/xlm-roberta-large-xnli​
 
-- Summarization: Extracts key points from the conversation to generate a summary.
+        - Uses zero-shot classification to categorize customer feedback into promoter, passive, and detractor.​
+
+        - Based on RoBERTa, a multilingual Natural Language Inference (NLI) model that analyzes meaning and intent.
+
+    - **Process**
+        - Customer sentences are analyzed using the model.​
+
+        - NPS score is calculated as (Promoter % - Detractor %).​
+
+        - Conversations with the lowest NPS scores are identified and reported 
+
+- 😊 **Sentiment Analysis**: Analyzes the emotional tone of the conversation.​
+
+    - **Model used** : savasy/bert-base-turkish-sentiment-cased​
+        - A Turkish-specific fine-tuned BERT model.​
+        -Classifies sentences into positive, negative, or neutral emotions.​
+
+    - **Process**
+        - Data is retrieved from MySQL, separating customer and agent dialogues.​
+
+        - Each customer statement is analyzed and assigned a sentiment label.​
+
+        - Sentiment scores are calculated, providing confidence percentages.​
+
+
+
+- 📝 **Summarization**: Extracts key points from the conversation to generate a summary.
+
+    - **Model used** : ozcangundes/mt5-small-turkish-summarization​
+        - A Turkish-specific summarization model based on mT5.​
+
+    - **Process**
+        - Conversation data is retrieved from the database.​
+
+        - All turns are merged into a structured "Speaker: Text" format.​
+
+        - The model generates a summary with a max length of 300 tokens and a min length of 100 tokens.​
 
 ### 4. Dashboard
 
