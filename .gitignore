@@ -73,3 +73,6 @@ processed_data/*
 coverage.xml
 .coverage
 htmlcov/ 
+
+
+images/
