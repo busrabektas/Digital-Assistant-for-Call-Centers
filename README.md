@@ -41,7 +41,7 @@ LangGraph creates a workflow that processes structured text data using GPT-4o.
 
 **Three AI-based tools analyze the conversations:** 
 
-- NPS Analysis: Categorizes customers into Promoter, Passive, and Detractor groups.
+- NPS Analysis: Categorizes customers into Promoter, Passive, and Detractor groups.Predicts and evaluates customer loyalty and satisfaction.​
 
 - Sentiment Analysis: Identifies whether customer feedback is positive, neutral, or negative.
 
@@ -49,7 +49,19 @@ LangGraph creates a workflow that processes structured text data using GPT-4o.
 
 ### 4. Dashboard
 
-- Chat UI created with Streamlit dashboard​
+- Chat UI created with Streamlit 
+
+![output](images/1.jpeg)
+
+![output](images/2.jpeg)
+
+![output](images/3.png)
+ß
+![output](images/4.jpeg)
+
+![output](images/5.jpeg)
+
+
 
 
 ## References
