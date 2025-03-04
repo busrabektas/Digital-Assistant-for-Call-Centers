@@ -56,7 +56,7 @@ LangGraph creates a workflow that processes structured text data using GPT-4o.
 ![output](images/2.jpeg)
 
 ![output](images/3.png)
-ß
+
 ![output](images/4.jpeg)
 
 ![output](images/5.jpeg)
