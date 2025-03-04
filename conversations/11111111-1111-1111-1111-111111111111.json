@@ -1,0 +1,126 @@
+{
+    "conversation_id": "11111111-1111-1111-1111-111111111111",
+    "turns": [
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Merhaba, bankamıza hoş geldiniz. Ben Ayşe, size nasıl yardımcı olabilirim?",
+        "start": 0.5,
+        "end": 5.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Merhaba, ben Mehmet. Hesabımda beklenmedik bir ücret kesildiğini fark ettim.",
+        "start": 5.1,
+        "end": 12.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Anlıyorum Mehmet Bey, hangi işlemden bahsettiğinizi detaylandırabilir misiniz?",
+        "start": 12.1,
+        "end": 16.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Geçen hafta internet bankacılığı üzerinden yaptığım ödemede normalden 150 TL fazla kesilmiş.",
+        "start": 16.1,
+        "end": 25.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Hemen hesabınızı kontrol ediyorum, lütfen biraz bekleyiniz.",
+        "start": 25.1,
+        "end": 32.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Bu durum beni gerçekten sinirlendirdi, bankanıza olan güvenim sarsıldı.",
+        "start": 32.1,
+        "end": 38.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Sistem kayıtlarınızı inceliyorum... Evet, görüyorum ki sistemde bir hata oluşmuş.",
+        "start": 38.1,
+        "end": 44.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Hatalı ücret, kesinlikle iade edilecektir.",
+        "start": 44.1,
+        "end": 52.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "İade ne zaman gerçekleşecek? Bu durumun tekrarlanmaması için ne yapacaksınız?",
+        "start": 52.1,
+        "end": 60.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "İade işlemi en geç iki iş günü içinde tamamlanacak. Ayrıca, sistem güncellemeleriyle benzeri hataların önüne geçilecektir.",
+        "start": 60.1,
+        "end": 68.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Ama ben acil olarak hesabımın düzeltilmesini istiyorum, bu gecikme kabul edilemez.",
+        "start": 68.1,
+        "end": 76.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Maalesef banka süreçleri böyle işliyor. Ancak, size özel hızlandırılmış işlem imkanı sunabiliriz.",
+        "start": 76.1,
+        "end": 84.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Umarım bu konuda gereken önlemler alınır, aksi halde tekrar işlem yapmam.",
+        "start": 84.1,
+        "end": 92.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Geri bildiriminiz çok önemli. Sistemde gerekli iyileştirmeler yapılacaktır.",
+        "start": 92.1,
+        "end": 98.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Peki, bu süreçte beni nasıl bilgilendireceksiniz?",
+        "start": 98.1,
+        "end": 104.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "SMS ve e-posta yoluyla tüm gelişmeleri size bildireceğiz.",
+        "start": 104.1,
+        "end": 110.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Tamam, umarım sorun kısa sürede çözülür. Teşekkür ederim.",
+        "start": 110.1,
+        "end": 116.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Rica ederim, Mehmet Bey. Başka bir sorunuz olursa lütfen bize ulaşın.",
+        "start": 116.1,
+        "end": 122.0
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Şimdilik bu kadar, iyi günler.",
+        "start": 122.1,
+        "end": 128.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "İyi günler, Mehmet Bey.",
+        "start": 128.1,
+        "end": 133.0
+      }
+    ]
+  }
+  
